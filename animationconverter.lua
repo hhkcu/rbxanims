@@ -13,9 +13,15 @@ newScriptButton.Click:Connect(function()
 		ns.Name = selected.Name
 		ns.Source = ""
 		for i,v in pairs(selected:GetDescendants()) do
+			if v:IsA("Keyframe") then
+				kframes[i] = v
+			end
+		end
+		for i,v in pairs(selected:GetDescendants()) do
 		if v:IsA("Keyframe") then
-			kframes[i] = v
-			pcall(function() tweenTime = kframes[i+1].Time - kframes[i].Time end)
+			if i < #kframes then
+				pcall(function() tweenTime = kframes[i+1].Time - kframes[i].Time end)
+			end
 			ns.Source = ns.Source.."\nwait("..v.Time..")"
 		elseif v:IsA("Pose") then
 				if v.Name ~= "HumanoidRootPart" then
