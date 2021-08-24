@@ -1,4 +1,3 @@
-wait(0)
 tween(welds["Torso"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Torso"]*CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.923879385, -0.382683814, 0, 0.382683814, 0.923879385))
 tween(welds["Left Leg"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Left Leg"]*CFrame.new(-1.90734863e-06, -1.90734863e-06, 0, 0.963536978, 0.255503029, 0.0794659704, -0.262906522, 0.959247053, 0.103560746, -0.0497674346, -0.120676726, 0.991443574))
 tween(welds["Right Leg"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Right Leg"]*CFrame.new(4.76837158e-07, -2.38418579e-06, 0, 0.998749137, 0.00218051672, -0.0499549359, 0.00386491418, 0.992693186, 0.120601542, 0.0498529077, -0.12064375, 0.991443276))
@@ -15,4 +14,3 @@ tween(welds["Left Leg"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirectio
 tween(welds["Right Leg"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Right Leg"]*CFrame.new(4.76837158e-07, -2.38418579e-06, 0, 0.998749137, 0.00218051672, -0.0499549359, 0.00386491418, 0.992693186, 0.120601542, 0.0498529077, -0.12064375, 0.991443276))
 tween(welds["Head"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Head"]*CFrame.new(0, 3.33786011e-06, 5.7220459e-06, 1, 0, 0, 0, 0.965925694, -0.25881955, 0, 0.25881955, 0.965925694))
 tween(welds["Left Arm"],1.733,Enum.PoseEasingStyle.Cubic,Enum.PoseEasingDirection.InOut,default["Left Arm"]*CFrame.new(-8.10623169e-06, 0, 0, 0.923329353, 0.354987115, 0.146448418, -0.384008616, 0.852957189, 0.353554696, 0.000593177916, -0.382684857, 0.92387867))
-wait(1.7333333492279)
